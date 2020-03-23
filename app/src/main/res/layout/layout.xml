@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#2c3e50"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:textColor="#fff"
+    android:text="User Id:"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:id="@+id/UserId"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="id:"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/id"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="title"
+        android:textStyle="bold"
+        android:id="@+id/title"/>
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:id="@+id/completed"/>
+
+
+</LinearLayout>
